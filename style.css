@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: salmon;
+}
+
+header {
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: salmon;
+    color: #ffffff;
+}
+
+header h1 {
+    background-color: bisque;
+    margin: 0px;
+    padding: 10px;
+    font-size: 60px;
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color:#ffffff
+}
+
+header nav ol {
+    list-style-type: none;
+}
+header nav ol li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+img {
+    max-width: 35%;
+    height: auto;
+    margin: 10px 0px;
+}
+
+p {
+    font-size: 25px;
+    color:#ffffff
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.class li {
+    display: block;
+}
+
+.main {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+}
+
+.info {
+    margin-bottom: 20px;
+    padding: 200px;
+    height: 600px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
+}
+
+#Contact {
+    margin-bottom: -330px;
+}
+.container {
+    position: relative;
+    top: 30px;
+}
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+}
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 640px;
+    margin-left: 30%;
+  }
+
+footer {
+    margin-top: 10px;
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color:#ffffff;
+}
+
+footer h2 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    background-color: bisque;
+}
